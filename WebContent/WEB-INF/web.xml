@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <servlet>
+    <servlet-name>Scoped Variables Example</servlet-name>
+    <servlet-class>com.beat_software.javaweb.controller.ScopedVars</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Scoped Variables Example</servlet-name>
+    <url-pattern>/scoped-vars</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Bean Properties Example</servlet-name>
+    <servlet-class>com.beat_software.javaweb.controller.BeanProperties</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Bean Properties Example</servlet-name>
+    <url-pattern>/bean-properties</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Collections Example</servlet-name>
+    <servlet-class>com.beat_software.javaweb.controller.Collections</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Collections Example</servlet-name>
+    <url-pattern>/collections</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Conditional Operators Example</servlet-name>
+    <servlet-class>com.beat_software.javaweb.controller.Conditionals</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Conditional Operators Example</servlet-name>
+    <url-pattern>/conditionals</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
